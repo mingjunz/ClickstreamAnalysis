@@ -33,7 +33,7 @@ pattern <- new("Pattern", sequence = c("Action14", "Action4"))
 resultPattern <- predict(mc, startPattern = pattern, dist = 1) # set dist = n to predict n steps ahead
 resultPattern
 
-##cSPACE data mining
+##cSPADE data mining
 frequencyDF <- frequencies(cls)
 frequencyDF
 trans <- as.transactions(cls)
